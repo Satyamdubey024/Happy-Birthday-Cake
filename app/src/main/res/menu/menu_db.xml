@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UI.NextPageActivity">
+
+
+    <item
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:icon="@drawable/down"
+        android:id="@+id/download"
+        app:showAsAction="always"
+        android:title="Download" />
+<item
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:icon="@drawable/share"
+    android:id="@+id/share"
+    app:showAsAction="always"
+    android:title="Share"/>
+
+
+
+
+    <item
+        android:id="@+id/Aboutapp"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/rateapp"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="@string/ratethis"
+        app:showAsAction="never"
+         />
+    <item
+        android:id="@+id/exit"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never"
+
+         />
+</menu>

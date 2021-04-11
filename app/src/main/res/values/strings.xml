@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Json</string>
+    <string name="empty_list_text">No Record Found"</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_desc">Enter Desc</string>
+    <string name="btn_update">Updated</string>
+    <string name="btn_delete">Deleted</string>
+    <string name="about">About App</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="sharthis">Share App</string>
+    <string name="ratethis">Rate This App</string>
+    <string name="exit">Exit</string>
+    <string name="send_to">Send to</string>
+</resources>
